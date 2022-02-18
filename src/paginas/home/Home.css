@@ -1,7 +1,22 @@
-.back {
+.caixa {
   background-image: url(../../assets/img/fundo_palmeiras.png);
 }
 
 .img {
   border-radius: 50%;
+}
+
+.titulo{
+  color: white !important; 
+  font-weight: "bold" !important;
+}
+
+.botao{
+   border-color: black !important;
+   background-color: #FEEAC2 !important;
+   color: black !important;
+}
+
+.postagens{
+  background-color: white;
 }
