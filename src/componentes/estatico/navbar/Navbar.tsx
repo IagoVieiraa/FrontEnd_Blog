@@ -8,33 +8,44 @@ function Navbar() {
         <>
             <AppBar position="static">
                 <Toolbar variant="dense" style={{ backgroundColor: "#224a17" }}>
+                    <Link to='/home' className='text-decorator-none'>
                     <Box className='cursor'>
                         <Typography variant="h5" color="inherit">
                             BlogPessoal
                         </Typography>
-                    </Box>
+                        </Box>
+                    </Link>
 
                     <Box display="flex" justifyContent="start">
+                        <Link to='/home' className='text-decorator-none'>
                         <Box mx={1} className='cursor'>
                             <Typography variant="h6" color="inherit">
                                 home
                             </Typography>
-                        </Box>
+                            </Box>
+                        </Link>
+                        <Link to='/' className='text-decorator-none'>
                         <Box mx={1} className='cursor'>
                             <Typography variant="h6" color="inherit">
                                 postagens
                             </Typography>
-                        </Box>
+                            </Box>
+                        </Link>
+
+                        <Link to='/' className='text-decorator-none'>
                         <Box mx={1} className='cursor'>
                             <Typography variant="h6" color="inherit">
                                 temas
                             </Typography>
-                        </Box>
+                            </Box>
+                        </Link>
+                        <Link to='/' className='text-decorator-none'>
                         <Box mx={1} className='cursor'>
                             <Typography variant="h6" color="inherit">
                                 cadastrar tema
                             </Typography>
                         </Box>
+                        </Link>
                         <Link to='/login' className='text-decorator-none'>
                             <Box mx={1} className='cursor'>
                                 <Typography variant="h6" color="inherit">
